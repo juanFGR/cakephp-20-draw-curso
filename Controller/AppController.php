@@ -31,4 +31,11 @@ App::uses('Controller', 'Controller');
  * @package       app.Controller
  */
 class AppController extends Controller {
+ public $helpers = array(
+	
+	'Html' => array('ClassName' => 'BoostCake.BoostCakeHtml'),
+	 'Form' => array('ClassName' => 'BoostCake.BoostCakeHtml'),
+ 'Paginator' => array('ClassName' => 'BoostCake.BoostCakeHtml'),
+
+	);
 }
