@@ -4,3 +4,4 @@
 [submodule "Plugin/BoostCake"]
 	path = Plugin/BoostCake
 	url = https://github.com/slywalker/cakephp-plugin-boost_cake.git
+
